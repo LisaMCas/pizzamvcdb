@@ -13,7 +13,7 @@ import java.util.logging.Logger;
  * The Data Access Object for pizza orders. Here we use a MySQL database to
  * store the data.
  *
- * @author John Phillips
+ * @author Lisa Caswell
  */
 public class DAOPizzaOrder {
 

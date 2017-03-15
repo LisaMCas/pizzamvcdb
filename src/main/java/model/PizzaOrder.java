@@ -3,7 +3,7 @@ package model;
 /**
  * A class that represents a single pizza order.
  *
- * @author John Phillips
+ * @author Lisa Caswell
  */
 public class PizzaOrder {
 

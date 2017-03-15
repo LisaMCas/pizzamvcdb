@@ -10,7 +10,7 @@ import java.util.logging.Logger;
 /**
  * Create a connection to a MySQL database in the simplest fashion possible.
  *
- * @author John Phillips
+ * @author Lisa Caswell
  * @version 20170304
  *
  */
@@ -20,8 +20,8 @@ public class DBConnection {
         Connection con = null;
         try {
             Class.forName("com.mysql.jdbc.Driver");
-            //con = DriverManager.getConnection("jdbc:mysql://52.4.58.57:3306/jdoe?useSSL=false", "jdoe", "mucis");
-            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/jdoe?useSSL=false", "jdoe", "mucis"); 
+            //con = DriverManager.getConnection("jdbc:mysql://52.91.157.160:3306/jdoe?useSSL=false", "jdoe", "mucis"); //netbeans
+            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/jdoe?useSSL=false", "jdoe", "mucis"); //tomcat
             System.out.println("Connected to DB at " + LocalDateTime.now());
         } catch (SQLException e) {
             e.printStackTrace();
